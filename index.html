@@ -9,13 +9,14 @@
 <body>
     <div class="principal">
         <h1>Cadastro</h1>
+
         <form>
-            <label for="nome">Nome:</label>
+            <label for="nome">Nome:</label><br>
             <input type="text" id="nome" name="nome" required>
             
             <br><br>
 
-            <label for="sexo">Sexo</label>
+            <label for="sexo">Sexo</label><br>
             <select id="sexo" name="sexo">
                 <option value="masculino">Masculino</option>
                 <option value="Feminino">Feminino</option>
@@ -25,18 +26,79 @@
 
             <br><br>
 
-            <label for="data_nasc">Data de nascimento</label>
+            <label for="data_nasc">Data de nascimento:</label><br>
             <input type="date" id="data_nasc" name="data_nasc">
 
             <br><br>
 
-            <label for="whats">WhatsApp:</label>
-            <input type="text" id="whats" name="whats" required>
+            <label for="whats">WhatsApp:</label><br>
+            <input type="text" id="whats" name="whats" required placeholder="(XX) XXXXX-XXXX">
 
+            <br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+
+            <br><br>
+
+            <label for="rg">RG:</label><br>
+            <input type="text" id="rg" name="rg" required placeholder="XX.XXX.XXX-X">
+
+            <br><br>
+
+            <label for="cidade">Cidade:</label><br>
+            <input type="text" id="cidade" name="cidade">
+
+            <br><br>
+
+            <label for="estado">Estado:</label><br>
+            <select id="estado" name="estado">
+                <option value="parana">Paraná</option>
+                <option value="sc">Santa Catarina</option>
+                <option value="rs">Rio Grande do Sul</option>
+            </select>
+
+            <br><br>
+
+            <label for="cep">CEP:</label><br>
+            <input type="text" id="cep" name="cep" required placeholder="XXXXX.XXX">
+
+            <br><br>
+        </form>
+
+            <hr>
+
+        <form action="form.html" method="post">
+            <h1>Pesquisa</h1>
+
+            <p>Na sua casa possui geladeira?<p>
+            <input type="radio" id="sim" name="quest1" value="sim"><label for="sim">Sim</label>
+            <input type="radio" id="nao" name="quest1" value="nao"><label for="nao">Não</label>
+
+            <br><br>
+
+            <p>Na sua casa possui Internet?<p>
+            <input type="radio" id="sim" name="quest1" value="sim"><label for="sim">Sim</label>
+            <input type="radio" id="nao" name="quest1" value="nao"><label for="nao">Não</label>
+    
+            <br><br>
+
+            <p>Qual a renda familiar?</p>
+            <input type="checkbox" id="num1" name="num1" value="num1">
+            <label for="num1">Entre R$1500,00 à R$1900,00</label><br>
+            <input type="checkbox" id="num2" name="num2" value="num2">
+            <label for="num2">Entre R$1900,00 à R$2500,00</label><br>
+            <input type="checkbox" id="num3" name="num3" value="num3">
+            <label for="num3">Entre RR$2500,00 à R$3100,00</label><br>
+            <input type="checkbox" id="num4" name="num4" value="num4">
+            <label for="num4">Entre RR$3100,00 à R$3800,00</label>
+            
             <br><br>
 
             <input type="submit" value="Enviar">
         </form>
+
+         
 
     </div>
 </body>
