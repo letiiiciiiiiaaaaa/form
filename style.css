@@ -1,6 +1,16 @@
 body{
-    background-color: #fff0e0;
+    background-color: #ff0099;
     margin-left: 35%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: large;
+    display: flex;
+}
+
+
+.principal{
+    background-color: #ffffff;
+    width: 500px;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 20px;
 }
