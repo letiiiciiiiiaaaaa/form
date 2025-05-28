@@ -14,3 +14,17 @@ body{
     margin: 0 auto;
     padding: 20px;
 }
+
+
+label{
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+
+input, select{
+    padding: 8px;
+    margin-top: 15px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+}
